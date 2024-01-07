@@ -1539,14 +1539,14 @@ def HONEY5():
 	print(logo)
 	print("                CHOOSE METHOD                       ")
 	print("[+]════════════════════════════════════") 
-	print("\033[1;36m [1] METHOD 1- MBASIC\n\033[1;33m [2] METHOD 2- P\n\033[1;36m [3] METHOD 3- X\n\033[1;35m [4] METHOD 4- MOBILE\n\033[1;92m [5] METHOD 5- FREE\n")
+	print("\033[1;36m [1] METHOD 1- MBASIC\n\033[1;33m [2] METHOD 2- P\n\033[1;36m [3] METHOD 3- X\n\033[1;35m [4] METHOD 4- MOBILE\n\033[1;92m [5] METHOD 5- FREE\\033[1;92m [6] METHOD alfa\n")
 	print(49*'=')
 	HONEYfire = input("[+] [CHOOSE] :- ")
 	os.system("clear")
 	print(logo)
 	print("                CHOOSE METHOD                       ")
 	print("\033[1;37m [💚]════════════════════════════════════") 
-	print("\033[1;36m [1] METHOD 1- MBASIC\n\033[1;37m [2] METHOD 2- P\n\033[1;33m [3] METHOD 3- X\n\033[1;92m [4] METHOD 4- MOBILE\033[1;92m [5] METHOD 5- FREE\n")
+	print("\033[1;36m [1] METHOD 1- MBASIC\n\033[1;37m [2] METHOD 2- P\n\033[1;33m [3] METHOD 3- X\n\033[1;92m [4] METHOD 4- MOBILE\033[1;92m [5] METHOD 5- FREE\n\033[1;92m  [6] METHOD alfa\n")
 	print(49*'=')
 	HONEYfire = input("\033[1;37m [+] [CHOOSE] :- ")
 	os.system("clear")
@@ -1586,6 +1586,7 @@ def HONEY5():
 			elif HONEYfire =='3':yaari.submit(x,uid,pwx,tl)
 			elif HONEYfire =='4':yaari.submit(mobile,uid,pwx,tl)
 			elif HONEYfire =='5':yaari.submit(fre,uid,pwx,tl)
+			elif HONRYfire =='6':yaari.submit(alfa,uid,pwx,tl)
 			else:
 			    yaari.submit(p,uid,pwx,tl)
 			
@@ -1917,7 +1918,7 @@ def mobile(uid,pwx,tl):
 
 
 
-def alfa(idf,pwv):
+def alfa(alfa,uid,pwx,tl):
 	#print(user)
 	global loop
 	global cps
