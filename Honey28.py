@@ -1005,7 +1005,7 @@ for xd in range(10000):
     k=random.randrange(40,150)
     l='Versi/4.0 Chrome/105.0.5195.136 Seluler Safari/537.36 WpsMoffice/16.6/arm64-v8a/1347'
     uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-    ugen.append(uaku2)sys.stdout.write('\r\33[1;37m[M4-HONEY] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+    ugen.append(uaku2)
 
     aa='Mozilla/5.0 (Linux; Android 7.0;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
