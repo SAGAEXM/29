@@ -1252,6 +1252,7 @@ def HONEY():
     elif aryan =='3':HONEY3()
     elif aryan =='4':HONEY4()
     elif aryan =='5':HONEY5()
+    elif aryan =='6':HONEY6()
     else:
         print("SELECT CORRECT OPTION")
         HONEY()
@@ -1271,7 +1272,7 @@ def HONEY1():
 	print(logo)
 	print("                CHOOSE METHOD                       ")
 	print("\033[1;37m [💚]-----------------------------------------------------------------------------------------") 
-	print("\033[1;36m [1] METHOD 1- MBASIC\n\033[1;33m [2] METHOD 2- P\n\033[1;36m [3] METHOD 3- X\n\033[1;35m [4] METHOD 4- MOBILE\n\033[1;92m [5] METHOD 5- FREE\n")
+	print("\033[1;36m [1] METHOD 1- MBASIC\n\033[1;33m [2] METHOD 2- P\n\033[1;36m [3] METHOD 3- X\n\033[1;35m [4] METHOD 4- MOBILE\n\033[1;92m [5] METHOD 5- FREE\n\033[1;92m [6] METHOD 5- ALFA \n")
 	print(49*'=')
 	HONEYfire = input("\033[1;37m [+] [CHOOSE] :- ")
 	os.system("clear")
@@ -1313,7 +1314,7 @@ def HONEY1():
 			elif HONEYfire =='3':yaari.submit(x,uid,pwx,tl)
 			elif HONEYfire =='4':yaari.submit(mobile,uid,pwx,tl)
 			elif HONEYfire =='5':yaari.submit(free,uid,pwx,tl)
-			elif HONEYfire =='5':yaari.submit(alfa,uid,pwx,tl)
+			elif HONEYfire =='6':yaari.submit(alfa,uid,pwx,tl)
 			else:
 			    yaari.submit(p,uid,pwx,tl)
 			
